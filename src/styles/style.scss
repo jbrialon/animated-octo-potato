@@ -1,0 +1,67 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_fonts.scss";
+@import "helpers.scss";
+
+:root {
+  font-family: Proxima, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.section {
+  width: 100%;
+  padding: 120px 0;
+  margin: 0 auto;
+  max-width: 85vw;
+
+  @include respond-to("small") {
+    max-width: 700px;
+  }
+
+  @include respond-to("medium") {
+    max-width: 1024px;
+  }
+
+  @include respond-to("large") {
+    max-width: 1440px;
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  /* :root {
+      color: #000000;
+      background-color: #ffffff;
+    } */
+  /* a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    } */
+}

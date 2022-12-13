@@ -1,0 +1,22 @@
+@font-face {
+  font-family: $ff-primary;
+  src: url("@/assets/fonts/proxima_nova_bold-webfont.woff2") format("woff2"),
+    url("@/assets/fonts/proxima_nova_bold-webfont.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $ff-primary;
+  src: url("@/assets/fonts//proxima_nova_thin-webfont.woff2") format("woff2"),
+    url("@/assets/fonts/proxima_nova_thin-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $ff-primary;
+  src: url("@/assets/fonts/proxima_nova-webfont.woff2") format("woff2"), url("@/assets/fonts/proxima_nova-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}

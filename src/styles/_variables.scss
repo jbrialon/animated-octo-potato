@@ -1,0 +1,17 @@
+// font-family
+$ff-primary: "Proxima Nova", sans-serif;
+
+// Font-weight
+$fw-light: 300;
+$fw-normal: 400;
+$fw-bold: 800;
+
+// sizes
+$inner-column: 756px;
+
+// Breakpoints
+$breakpoints: (
+  "small": 768px,
+  "medium": 1280px,
+  "large": 1441px,
+) !default;
