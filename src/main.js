@@ -9,5 +9,3 @@ app.use(VueLazyLoad, {
   attempt: 1,
 });
 app.mount("#app");
-
-// createApp(App).mount("#app").use(VueLazyLoad);
