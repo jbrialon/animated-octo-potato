@@ -8,7 +8,7 @@ export default {
 
     gsap.set(title, { autoAlpha: 0 });
     video.addEventListener("ended", () => {
-      gsap.to(title, { autoAlpha: 1, duration: 1 });
+      gsap.to(title, { autoAlpha: 1, duration: 1, ease: "Power.easeInOut" });
     });
   },
 };
@@ -17,7 +17,6 @@ export default {
 <template>
   <section id="hero" class="section">
     <video ref="video" src="../assets/intro_trim.mp4" autoplay playsinline muted></video>
-    <!-- <img class="logo" src="../assets/logo.jpg" alt="Devenir Logo" /> -->
     <h1 ref="title" class="uppercase"><span class="bold">Devenir</span> Installation - Experience the Purest Form of Interaction</h1>
     <p>
       DEVENIR is an interactive installation that lets users control a digital world only with the power of their mind. By mixing data and
@@ -80,7 +79,7 @@ export default {
     @include respond-to("large") {
       max-width: $inner-column;
       font-size: 30px;
-      margin: 130px auto 0 auto;
+      margin: 220px auto 0 auto;
       text-align: left;
     }
   }
