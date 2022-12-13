@@ -20,9 +20,11 @@ export default {};
       hardware we used was Emotiv Devices that are designed for Brain Computer Interface (BCI).
       <br />
       <br />
+      <br />
       The <span class="bold">Emotiv Devices</span> are working using pattern recognition and identify them as Commands and the experiment
       requires a training of at least one Neutral state and one Command state. The system learns to recognise the patterns of brain activity
       that are related to the Command state compared to the Neutral state.
+      <br />
       <br />
       <br />
       The game itself was created in Unreal engine and immersed the players in 3 stages: the training stage where you learn to use the power
