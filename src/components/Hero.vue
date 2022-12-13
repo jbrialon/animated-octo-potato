@@ -9,7 +9,6 @@ export default {
     gsap.set(title, { autoAlpha: 0 });
     video.addEventListener("ended", () => {
       gsap.to(title, { autoAlpha: 1, duration: 1 });
-      console.log("ended");
     });
   },
 };
@@ -17,7 +16,7 @@ export default {
 
 <template>
   <section id="hero" class="section">
-    <video ref="video" src="intro_trim.mp4" autoplay playsinline muted></video>
+    <video ref="video" src="../assets/intro_trim.mp4" autoplay playsinline muted></video>
     <!-- <img class="logo" src="../assets/logo.jpg" alt="Devenir Logo" /> -->
     <h1 ref="title" class="uppercase"><span class="bold">Devenir</span> Installation - Experience the Purest Form of Interaction</h1>
     <p>
