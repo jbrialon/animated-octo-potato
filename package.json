@@ -12,6 +12,7 @@
     "gsap": "^3.11.3",
     "normalize-scss": "^7.0.1",
     "vue": "^3.2.45",
+    "vue3-carousel": "^0.2.9",
     "vue3-lazyload": "^0.3.6"
   },
   "devDependencies": {

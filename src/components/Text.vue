@@ -16,8 +16,8 @@ export default {};
     </p>
     <h3>Solution</h3>
     <p>
-      We created a multiplayer app with a brain-computer-interface that let you move, shape and grow objects on screen by just thinking about it. The
-      hardware we used was Emotiv Devices that are designed for Brain Computer Interface (BCI).
+      We created a multiplayer app with a brain-computer-interface that let you move, shape and grow objects on screen by just thinking
+      about it. The hardware we used was Emotiv Devices that are designed for Brain Computer Interface (BCI).
       <br />
       <br />
       <br />
@@ -51,6 +51,7 @@ export default {};
     font-weight: $fw-bold;
     font-size: 20px;
     line-height: 110%;
+
     @include respond-to("medium") {
       font-size: 24px;
       line-height: 130%;
