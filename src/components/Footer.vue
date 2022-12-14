@@ -4,7 +4,7 @@ export default {};
 
 <template>
   <footer id="footer" class="uppercase">
-    <p>© Devenir copyright of Merkle DACH GMBH</p>
+    <p>© Devenir copyright of Merkle DACH</p>
   </footer>
 </template>
 
