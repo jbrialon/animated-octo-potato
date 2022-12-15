@@ -23,16 +23,7 @@ export default {};
   iframe {
     width: 100%;
     height: auto;
-
-    @include respond-to("medium") {
-      width: 1024px;
-      height: 760px;
-    }
-
-    @include respond-to("large") {
-      width: 1440px;
-      height: 900px;
-    }
+    aspect-ratio: 16/9;
   }
 }
 </style>
