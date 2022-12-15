@@ -22,7 +22,7 @@ export default {
 
 <template>
   <section id="carousel" class="section">
-    <p>Experiences from the Zurich Digital visitors:</p>
+    <p>Experiences from the Zurich Digital Festival visitors:</p>
     <carousel :items-to-show="1" :mouse-drag="quotes.length > 1">
       <slide v-for="(quote, index) in quotes" :key="index">
         <div class="item">
