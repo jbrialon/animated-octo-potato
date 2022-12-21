@@ -7,7 +7,7 @@ export default {
     return {
       quotes: [
         {
-          text: "“The best things are learnt during the worst days of your life. Get up and see what new learning you had on a bad day.”",
+          text: "“DEVENIR doesn’t feel like anything else digital – it’s almost like a meditation.”",
         },
       ],
     };
@@ -22,7 +22,7 @@ export default {
 
 <template>
   <section id="carousel" class="section">
-    <p>Experiences from the Zurich Digital Festival visitors:</p>
+    <p>First time user at Zürich Digital Festival:</p>
     <carousel :items-to-show="1" :mouse-drag="quotes.length > 1">
       <slide v-for="(quote, index) in quotes" :key="index">
         <div class="item">
