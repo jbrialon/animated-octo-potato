@@ -3,3 +3,13 @@
   from = "/*"
   to = "https://sprout-cube-dsxe.squarespace.com/"
   status = 301
+
+  [[redirects]]
+  from = "https://devenir.netlify.app/"
+  to = "https://sprout-cube-dsxe.squarespace.com/"
+  status = 301
+
+  [[redirects]]
+  from = "/test"
+  to = "https://sprout-cube-dsxe.squarespace.com/"
+  status = 301
